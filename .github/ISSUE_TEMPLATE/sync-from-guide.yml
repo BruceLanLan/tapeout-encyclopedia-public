@@ -1,0 +1,34 @@
+name: Sync from beginner guide
+description: Guide repo changed something factual — update encyclopedia entry/graph
+title: "sync(guide): "
+labels: ["sync", "content"]
+body:
+  - type: input
+    id: guide_pr
+    attributes:
+      label: beginner-guide PR / commit / issue URL
+      placeholder: https://github.com/chickdady-svg/tapeout-beginner-guide/pull/…
+    validations:
+      required: true
+  - type: input
+    id: slugs
+    attributes:
+      label: Encyclopedia slugs to update (comma-separated)
+      placeholder: bem, seal, wallet-safety
+    validations:
+      required: true
+  - type: textarea
+    id: delta
+    attributes:
+      label: What changed in the guide?
+      description: Quote the corrected fact and page/source comment if possible.
+    validations:
+      required: true
+  - type: checkboxes
+    id: graph
+    attributes:
+      label: Also needs graph / glossary update?
+      options:
+        - label: entities.yaml / relations.yaml
+        - label: glossary.yaml
+        - label: no graph change

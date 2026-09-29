@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Beginner guide (textbook repo)
+    url: https://github.com/chickdady-svg/tapeout-beginner-guide
+    about: Proofread onboarding guide — do not expand encyclopedia content there
+  - name: tapeout.work (observed data)
+    url: https://tapeout.work
+    about: Live protocol observations and public APIs

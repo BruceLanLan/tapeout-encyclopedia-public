@@ -1,0 +1,79 @@
+[
+  {
+    "full_name": "TapeOutProtocol/TapeKit",
+    "url": "https://github.com/TapeOutProtocol/TapeKit",
+    "category": "official",
+    "summary": "Open-source browser kernel for TapeOut protocol content.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "TapeOutProtocol/TAPs",
+    "url": "https://github.com/TapeOutProtocol/TAPs",
+    "category": "official",
+    "summary": "TapeOut Protocol proposal repository.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "TapeOutProtocol/list",
+    "url": "https://github.com/TapeOutProtocol/list",
+    "category": "official",
+    "summary": "Public suffix list maintained by the TapeOutProtocol organization.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "BruceLanLan/tapeapi",
+    "url": "https://github.com/BruceLanLan/tapeapi",
+    "category": "community",
+    "summary": "Signed APIs and encrypted channels for TapeOut containers.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "BruceLanLan/tapeout-launch-lab",
+    "url": "https://github.com/BruceLanLan/tapeout-launch-lab",
+    "category": "community",
+    "summary": "Interactive research on launch mechanics.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "BruceLanLan/life-tapeout",
+    "url": "https://github.com/BruceLanLan/life-tapeout",
+    "category": "community",
+    "summary": "Conway's Game of Life circuits for TapeOut and Tiny Tapeout.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "BruceLanLan/c3s-reflex-circuits",
+    "url": "https://github.com/BruceLanLan/c3s-reflex-circuits",
+    "category": "community",
+    "summary": "Connectome-constrained NAND and latch circuit synthesis.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "chickdady-svg/tapeout-beginner-guide",
+    "url": "https://github.com/chickdady-svg/tapeout-beginner-guide",
+    "category": "community",
+    "summary": "Community beginner guide with Markdown, images, and PDF editions.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "ddgsdde/tap",
+    "url": "https://github.com/ddgsdde/tap",
+    "category": "community",
+    "summary": "TapeOut leaderboards, netlists, BLIF, and BNB Chain market snapshots.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "azk3cd/tapeout-whitepaper",
+    "url": "https://github.com/azk3cd/tapeout-whitepaper",
+    "category": "community",
+    "summary": "Independent technical analysis of the TapeOut Protocol.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "yaetcc/xchip",
+    "url": "https://github.com/yaetcc/xchip",
+    "category": "community",
+    "summary": "Concept interface for a TapeOut XCHIP blind-box factory.",
+    "verified_at": "2026-09-30"
+  }
+]

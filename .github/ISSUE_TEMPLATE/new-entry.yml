@@ -1,0 +1,52 @@
+name: New encyclopedia entry
+description: Propose a new TapeOut encyclopedia entry (any locale)
+title: "entry: "
+labels: ["entry", "content"]
+body:
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Primary locale for the first draft
+      options: [zh, en, other]
+    validations:
+      required: true
+  - type: input
+    id: slug
+    attributes:
+      label: Proposed slug (kebab-case, shared across languages)
+      placeholder: tapehub
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Entry type
+      options: [protocol, concept, token, tool, site, person, event, formula, address, other]
+    validations:
+      required: true
+  - type: dropdown
+    id: source_tier
+    attributes:
+      label: Highest source tier you can cite
+      options: [official, community-reviewed-guide, observed-data, community, unverified]
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-sentence summary
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (URLs)
+      description: Official pages, beginner-guide chapters, tapeout.work APIs, etc.
+    validations:
+      required: true
+  - type: checkboxes
+    id: agent
+    attributes:
+      label: Drafting method
+      options:
+        - label: This may be drafted or assisted by an AI agent (will stay status draft until human review)

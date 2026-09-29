@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/BruceLanLan/tapeout-encyclopedia-public/main/schemas/entry.schema.json",
+  "title": "TapeOut encyclopedia entry frontmatter",
+  "description": "JSON Schema for YAML frontmatter on content/entries/<locale>/<slug>.md. Matches scripts/validate-content.mjs (zod) required fields; optional fields documented in specs/01-entry-schema.md.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "slug",
+    "locale",
+    "title",
+    "summary",
+    "type",
+    "status",
+    "source_tier",
+    "updated",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable entity id; must exist in content/graph/entities.yaml"
+    },
+    "slug": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Must match filename without .md; same across locales"
+    },
+    "locale": {
+      "type": "string",
+      "minLength": 2,
+      "description": "BCP-47 lowercase (zh, en, …)"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 240,
+      "description": "One-line summary; quote in YAML if it contains colons"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "protocol",
+        "concept",
+        "token",
+        "tool",
+        "site",
+        "person",
+        "event",
+        "formula",
+        "address",
+        "other"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "review", "published", "deprecated"]
+    },
+    "source_tier": {
+      "$ref": "#/$defs/sourceTier"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "updated": {
+      "type": "string",
+      "minLength": 4,
+      "description": "ISO date YYYY-MM-DD (or coercible date)"
+    },
+    "related": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "default": [],
+      "description": "Entity ids present in the knowledge graph"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "url", "tier"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "tier": { "$ref": "#/$defs/sourceTier" }
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "official_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Live URL for sites/tools; does not imply source_tier official"
+    },
+    "data_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "safety_notes": { "type": "string" },
+    "translation_of": {
+      "type": ["string", "null"]
+    },
+    "translators": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "sourceTier": {
+      "type": "string",
+      "enum": [
+        "official",
+        "community-reviewed-guide",
+        "observed-data",
+        "community",
+        "unverified",
+        "deprecated"
+      ]
+    }
+  }
+}

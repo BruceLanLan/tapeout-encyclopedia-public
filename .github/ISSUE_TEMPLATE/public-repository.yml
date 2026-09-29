@@ -1,0 +1,28 @@
+name: Public GitHub repository
+description: Propose a publicly accessible TapeOut-related GitHub repository
+title: "public-repo: "
+labels: ["content"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Public repository URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: TapeOut relevance
+      description: Explain what the project does and how it relates to TapeOut.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public_check
+    attributes:
+      label: Public access check
+      options:
+        - label: I confirmed this URL works in a signed-out browser.
+          required: true
+        - label: This proposal contains no information copied from a private repository view.
+          required: true

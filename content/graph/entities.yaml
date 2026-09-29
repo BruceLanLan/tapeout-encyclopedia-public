@@ -1,0 +1,330 @@
+entities:
+  - id: tapeout
+    type: protocol
+    label: { zh: TapeOut, en: TapeOut }
+    aliases: ["Tape Out"]
+    entry_slugs: { zh: tapeout, en: tapeout }
+    source_tier: official
+    official_url: https://tapeout.net
+    data_refs:
+      - https://tapeout.work/api/v1/processors
+
+  - id: nand
+    type: token
+    label: { zh: NAND, en: NAND }
+    aliases: ["与非门"]
+    entry_slugs: { zh: nand, en: nand }
+    source_tier: official
+
+  - id: latch
+    type: token
+    label: { zh: LATCH, en: LATCH }
+    aliases: ["锁存器"]
+    entry_slugs: { zh: latch, en: latch }
+    source_tier: official
+
+  - id: transistor
+    type: concept
+    label: { zh: 晶体管代币, en: Transistor token }
+    aliases: ["transistor"]
+    entry_slugs: { zh: transistor, en: transistor }
+    source_tier: community-reviewed-guide
+
+  - id: circuit
+    type: concept
+    label: { zh: 电路, en: Circuit }
+    aliases: ["Circuit NFT"]
+    entry_slugs: { zh: circuit, en: circuit }
+    source_tier: official
+    data_refs:
+      - https://tapeout.work/api/v1/market-overview
+
+  - id: processor
+    type: concept
+    label: { zh: 处理器, en: Processor }
+    aliases: ["晶体管发行厂"]
+    entry_slugs: { zh: processor, en: processor }
+    source_tier: official
+    data_refs:
+      - https://tapeout.work/api/v1/processors
+
+  - id: bem
+    type: token
+    label: { zh: BEM, en: BEM }
+    aliases: ["$BEM"]
+    entry_slugs: { zh: bem, en: bem }
+    source_tier: official
+    data_refs:
+      - https://tapeout.work/api/v1/bem/overview
+
+  - id: pod
+    type: concept
+    label: { zh: PoD, en: PoD }
+    aliases: ["Proof of Design"]
+    entry_slugs: { zh: pod, en: pod }
+    source_tier: official
+    data_refs:
+      - https://tapeout.work/api/v1/bem/tasks
+
+  - id: tapekit
+    type: tool
+    label: { zh: TapeKit, en: TapeKit }
+    aliases: []
+    entry_slugs: { zh: tapekit, en: tapekit }
+    source_tier: official
+
+  - id: tapeout-work
+    type: site
+    label: { zh: tapeout.work, en: tapeout.work }
+    aliases: ["TapeOut Protocol Intelligence Terminal"]
+    entry_slugs: { zh: tapeout-work, en: tapeout-work }
+    source_tier: observed-data
+    official_url: https://tapeout.work
+    data_refs:
+      - https://tapeout.work/api/v1/updates
+
+  - id: beginner-guide
+    type: site
+    label: { zh: 新手完全指南, en: Beginner Guide }
+    aliases: ["TapeOut 新手完全指南"]
+    entry_slugs: { zh: beginner-guide, en: beginner-guide }
+    source_tier: community-reviewed-guide
+    official_url: https://github.com/chickdady-svg/tapeout-beginner-guide
+
+  - id: canvas
+    type: tool
+    label: { zh: 画布, en: Canvas }
+    aliases: []
+    entry_slugs: { zh: canvas, en: canvas }
+    source_tier: official
+    official_url: https://tapeout.net
+
+  - id: tape-out
+    type: concept
+    label: { zh: 流片, en: Tape-out }
+    aliases: []
+    entry_slugs: { zh: tape-out, en: tape-out }
+    source_tier: community-reviewed-guide
+
+  - id: container
+    type: concept
+    label: { zh: 电路容器, en: Circuit container }
+    aliases: []
+    entry_slugs: { zh: container, en: container }
+    source_tier: community-reviewed-guide
+
+  - id: tape-url
+    type: concept
+    label: { zh: "tape://", en: "tape://" }
+    aliases: []
+    entry_slugs: { zh: tape-url, en: tape-url }
+    source_tier: official
+    official_url: https://tapekit.org
+
+  - id: factory
+    type: concept
+    label: { zh: 工厂合约, en: Factory contract }
+    aliases: []
+    entry_slugs: { zh: factory, en: factory }
+    source_tier: community-reviewed-guide
+
+  - id: behemoth
+    type: concept
+    label: { zh: Behemoth, en: Behemoth }
+    aliases: []
+    entry_slugs: { zh: behemoth, en: behemoth }
+    source_tier: community-reviewed-guide
+
+  - id: ref
+    type: concept
+    label: { zh: REF, en: REF }
+    aliases: []
+    entry_slugs: { zh: ref, en: ref }
+    source_tier: community-reviewed-guide
+
+  - id: hashport
+    type: site
+    label: { zh: HashPort, en: HashPort }
+    aliases: []
+    entry_slugs: { zh: hashport, en: hashport }
+    source_tier: community
+    official_url: https://hashport.ai
+
+  - id: tapehub
+    type: site
+    label: { zh: TapeHub, en: TapeHub }
+    aliases: []
+    entry_slugs: { zh: tapehub, en: tapehub }
+    source_tier: community
+    official_url: https://tapehub.ai
+
+  - id: tapeout-market
+    type: site
+    label: { zh: TapeOut Market, en: TapeOut Market }
+    aliases: []
+    entry_slugs: { zh: tapeout-market, en: tapeout-market }
+    source_tier: community
+    official_url: https://tapeout.market
+
+  - id: firsto
+    type: site
+    label: { zh: Firsto, en: Firsto }
+    aliases: []
+    entry_slugs: { zh: firsto, en: firsto }
+    source_tier: community
+    official_url: https://tapeout.firsto.ai
+
+  - id: tapeoutscan
+    type: site
+    label: { zh: TapeOutScan, en: TapeOutScan }
+    aliases: []
+    entry_slugs: { zh: tapeoutscan, en: tapeoutscan }
+    source_tier: community
+    official_url: https://tapeoutexplorer.com
+
+  - id: siliconx
+    type: site
+    label: { zh: SiliconX, en: SiliconX }
+    aliases: []
+    entry_slugs: { zh: siliconx, en: siliconx }
+    source_tier: community
+    official_url: https://siliconx.top
+
+  - id: gatepilot
+    type: site
+    label: { zh: GatePilot, en: GatePilot }
+    aliases: []
+    entry_slugs: { zh: gatepilot, en: gatepilot }
+    source_tier: community
+    official_url: https://tapeout.vibedegens.com
+
+  - id: tapeout-club
+    type: site
+    label: { zh: TapeOut Club, en: TapeOut Club }
+    aliases: []
+    entry_slugs: { zh: tapeout-club, en: tapeout-club }
+    source_tier: community
+    official_url: https://tapeout.club
+
+  - id: dune-mining-intelligence
+    type: site
+    label: { zh: Dune Mining Intelligence, en: Dune Mining Intelligence }
+    aliases: []
+    entry_slugs: { zh: dune-mining-intelligence, en: dune-mining-intelligence }
+    source_tier: community
+
+  - id: tapesend
+    type: tool
+    label: { zh: TapeSend, en: TapeSend }
+    aliases: []
+    entry_slugs: { zh: tapesend, en: tapesend }
+    source_tier: official
+    official_url: https://github.com/TapeOutProtocol/TapeKit
+
+  - id: deqq
+    type: site
+    label: { zh: DeQQ, en: DeQQ }
+    aliases: []
+    entry_slugs: { zh: deqq, en: deqq }
+    source_tier: community
+    official_url: https://deqq.pages.dev
+
+  - id: wallet-safety
+    type: concept
+    label: { zh: "钱包安全清单", en: Wallet safety checklist }
+    aliases: []
+    entry_slugs: { zh: wallet-safety, en: wallet-safety }
+    source_tier: community-reviewed-guide
+
+  - id: seal
+    type: concept
+    label: { zh: "封印", en: Seal }
+    aliases: []
+    entry_slugs: { zh: seal, en: seal }
+    source_tier: community-reviewed-guide
+
+  - id: upgradeability
+    type: concept
+    label: { zh: "可升级性", en: Upgradeability }
+    aliases: []
+    entry_slugs: { zh: upgradeability, en: upgradeability }
+    source_tier: community-reviewed-guide
+
+  - id: spoof-token
+    type: concept
+    label: { zh: "同名币与仿冒", en: Spoof tokens }
+    aliases: []
+    entry_slugs: { zh: spoof-token, en: spoof-token }
+    source_tier: community-reviewed-guide
+
+  - id: tapeout-build
+    type: site
+    label: { zh: tapeout.build, en: tapeout.build }
+    aliases: []
+    entry_slugs: { zh: tapeout-build, en: tapeout-build }
+    source_tier: community
+    official_url: https://tapeout.build
+
+  - id: tapechat
+    type: site
+    label: { zh: TapeChat, en: TapeChat }
+    aliases: []
+    entry_slugs: { zh: tapechat, en: tapechat }
+    source_tier: community
+    official_url: https://chat.tapeout.link
+
+  - id: tapqq
+    type: site
+    label: { zh: TAPQQ, en: TAPQQ }
+    aliases: ["1.888"]
+    entry_slugs: { zh: tapqq, en: tapqq }
+    source_tier: community
+    official_url: https://1-888.tapekit.org
+
+  - id: tapeout-space
+    type: site
+    label: { zh: tapeout.space, en: tapeout.space }
+    aliases: []
+    entry_slugs: { zh: tapeout-space, en: tapeout-space }
+    source_tier: community
+    official_url: https://tapeout.space
+
+  - id: tapelens
+    type: site
+    label: { zh: TapeLens, en: TapeLens }
+    aliases: []
+    entry_slugs: { zh: tapelens, en: tapelens }
+    source_tier: community
+    official_url: https://tapelens.xyz
+
+  - id: tapestar
+    type: site
+    label: { zh: TapeStar, en: TapeStar }
+    aliases: []
+    entry_slugs: { zh: tapestar, en: tapestar }
+    source_tier: community
+    official_url: https://tapestar.org
+
+  - id: verifier
+    type: site
+    label: { zh: Verifier, en: Verifier }
+    aliases: []
+    entry_slugs: { zh: verifier, en: verifier }
+    source_tier: community
+    official_url: https://tapeout.pro/verifier
+
+  - id: xinshi
+    type: site
+    label: { zh: 芯市, en: Xinshi }
+    aliases: ["芯市", "Xinshi"]
+    entry_slugs: { zh: xinshi, en: xinshi }
+    source_tier: community
+    official_url: https://yuequan123.com/bem
+
+  - id: tapeweb
+    type: site
+    label: { zh: TapeWeb, en: TapeWeb }
+    aliases: []
+    entry_slugs: { zh: tapeweb, en: tapeweb }
+    source_tier: community
+    official_url: https://web.tapeout.link

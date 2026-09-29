@@ -1,0 +1,25 @@
+name: Graph change
+description: Propose new entities or relations in the knowledge graph
+title: "graph: "
+labels: ["graph"]
+body:
+  - type: dropdown
+    id: change
+    attributes:
+      label: Change type
+      options: [new entity, new relation, fix relation, deprecate entity]
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed YAML snippet
+      render: yaml
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+    validations:
+      required: true

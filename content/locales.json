@@ -1,0 +1,19 @@
+{
+  "locales": [
+    {
+      "code": "zh",
+      "name": "中文",
+      "englishName": "Chinese",
+      "dir": "ltr",
+      "default": true
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "englishName": "English",
+      "dir": "ltr",
+      "default": false
+    }
+  ],
+  "fallback": ["en", "zh"]
+}

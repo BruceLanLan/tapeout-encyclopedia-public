@@ -1,0 +1,23 @@
+name: Route to beginner-guide (do not expand here)
+description: Typo / PDF-backed fix / link repair — belongs in the textbook repo
+title: "route(guide): "
+labels: ["layer/guide"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        教材仓禁止扩写。请把 **PDF 有据的校对类任务** 开到：
+        https://github.com/chickdady-svg/tapeout-beginner-guide/issues/new
+
+        本 Issue 仅作路由备忘；确认后可关闭并在 guide 仓继续。
+  - type: textarea
+    id: task
+    attributes:
+      label: What needs fixing in the guide?
+    validations:
+      required: true
+  - type: input
+    id: pages
+    attributes:
+      label: PDF / source page refs (if known)
+      placeholder: "p.101 / docs/15-chapter-09.md"

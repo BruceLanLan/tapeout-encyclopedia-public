@@ -1,0 +1,43 @@
+# Shared term map — keep Latin technical tokens stable across locales.
+terms:
+  - id: tapeout
+    en: TapeOut
+    zh: TapeOut
+    notes: Protocol name; do not confuse with semiconductor “tape-out”.
+  - id: nand
+    en: NAND
+    zh: NAND（与非门）
+  - id: latch
+    en: LATCH
+    zh: LATCH（锁存器 / 1 位记忆）
+  - id: circuit
+    en: Circuit
+    zh: 电路（Circuit NFT）
+  - id: processor
+    en: Processor
+    zh: 处理器（晶体管发行厂）
+  - id: bem
+    en: BEM
+    zh: BEM（$BEM）
+  - id: pod
+    en: PoD
+    zh: PoD（Proof of Design）
+  - id: tapekit
+    en: TapeKit
+    zh: TapeKit
+  - id: tape-url
+    en: "tape://"
+    zh: "tape:// 链上网站地址"
+  - id: canvas
+    en: Canvas
+    zh: 画布（Canvas）
+
+  - id: tapesend
+    en: TapeSend / TAP-10
+    zh: TapeSend / TAP-10（消息层）
+  - id: seal
+    en: Seal
+    zh: 封印（seal）
+  - id: wallet-safety
+    en: Wallet safety
+    zh: 钱包安全清单

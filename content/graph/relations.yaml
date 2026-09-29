@@ -1,0 +1,423 @@
+relations:
+  - id: nand-is-a-transistor
+    from: nand
+    to: transistor
+    type: is_a
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: latch-is-a-transistor
+    from: latch
+    to: transistor
+    type: is_a
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: circuit-uses-transistor
+    from: circuit
+    to: transistor
+    type: uses
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: circuit-part-of-processor
+    from: circuit
+    to: processor
+    type: part_of
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: processor-part-of-tapeout
+    from: processor
+    to: tapeout
+    type: part_of
+    confidence: high
+    source_tier: official
+    sources:
+      - https://tapeout.net
+
+  - id: pod-produces-bem
+    from: pod
+    to: bem
+    type: produces
+    confidence: medium
+    source_tier: official
+    sources:
+      - https://tapeout.net
+
+  - id: pod-uses-circuit
+    from: pod
+    to: circuit
+    type: uses
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/09-chapter-05-part-1.md
+
+  - id: tapekit-part-of-tapeout
+    from: tapekit
+    to: tapeout
+    type: part_of
+    confidence: high
+    source_tier: official
+    sources:
+      - https://tapeout.net
+
+  - id: beginner-guide-documents-tapeout
+    from: beginner-guide
+    to: tapeout
+    type: documents
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide
+
+  - id: tapeout-work-observes-tapeout
+    from: tapeout-work
+    to: tapeout
+    type: observes
+    confidence: high
+    source_tier: observed-data
+    sources:
+      - https://tapeout.work
+
+  - id: canvas-part-of-tapeout
+    from: canvas
+    to: tapeout
+    type: part_of
+    confidence: high
+    source_tier: official
+    sources:
+      - https://tapeout.net
+
+  - id: tape-out-uses-transistor
+    from: tape-out
+    to: transistor
+    type: uses
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: tape-out-produces-circuit
+    from: tape-out
+    to: circuit
+    type: produces
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: canvas-related-tape-out
+    from: canvas
+    to: tape-out
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: container-part-of-circuit
+    from: container
+    to: circuit
+    type: part_of
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/08-chapter-04.md
+
+  - id: tape-url-depends-on-container
+    from: tape-url
+    to: container
+    type: depends_on
+    confidence: medium
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/08-chapter-04.md
+
+  - id: factory-produces-processor
+    from: factory
+    to: processor
+    type: produces
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: behemoth-is-a-processor
+    from: behemoth
+    to: processor
+    type: is_a
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/06-chapter-02.md
+
+  - id: ref-related-circuit
+    from: ref
+    to: circuit
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/04-quick-reference.md
+
+  - id: hashport-uses-tapekit
+    from: hashport
+    to: tapekit
+    type: uses
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapehub-related-tapeout
+    from: tapehub
+    to: tapeout
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapeout-market-related-circuit
+    from: tapeout-market
+    to: circuit
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: firsto-related-tapeout
+    from: firsto
+    to: tapeout
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapeoutscan-observes-tapeout
+    from: tapeoutscan
+    to: tapeout
+    type: observes
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: siliconx-related-tapeout
+    from: siliconx
+    to: tapeout
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: gatepilot-related-pod
+    from: gatepilot
+    to: pod
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: gatepilot-related-wallet-safety
+    from: gatepilot
+    to: wallet-safety
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/15-chapter-09.md
+
+  - id: tapeout-club-related-market
+    from: tapeout-club
+    to: tapeout-market
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: dune-observes-pod
+    from: dune-mining-intelligence
+    to: pod
+    type: observes
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapesend-part-of-tapekit
+    from: tapesend
+    to: tapekit
+    type: part_of
+    confidence: high
+    source_tier: official
+    sources:
+      - https://github.com/TapeOutProtocol/TapeKit/blob/main/send/README.md
+
+  - id: tapesend-uses-container
+    from: tapesend
+    to: container
+    type: uses
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/12-chapter-07-part-1.md
+
+  - id: deqq-uses-tapesend
+    from: deqq
+    to: tapesend
+    type: uses
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: wallet-safety-related-spoof
+    from: wallet-safety
+    to: spoof-token
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/15-chapter-09.md
+
+  - id: seal-related-upgradeability
+    from: seal
+    to: upgradeability
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/15-chapter-09.md
+
+  - id: seal-related-pod
+    from: seal
+    to: pod
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/15-chapter-09.md
+
+  - id: spoof-token-related-bem
+    from: spoof-token
+    to: bem
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/15-chapter-09.md
+
+  - id: tapeout-build-related-canvas
+    from: tapeout-build
+    to: canvas
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapechat-uses-tapesend
+    from: tapechat
+    to: tapesend
+    type: uses
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapqq-uses-tapesend
+    from: tapqq
+    to: tapesend
+    type: uses
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapqq-related-tape-url
+    from: tapqq
+    to: tape-url
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapeout-space-related-tape-url
+    from: tapeout-space
+    to: tape-url
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapelens-observes-circuit
+    from: tapelens
+    to: circuit
+    type: observes
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapestar-related-pod
+    from: tapestar
+    to: pod
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapestar-related-wallet-safety
+    from: tapestar
+    to: wallet-safety
+    type: related_to
+    confidence: high
+    source_tier: community-reviewed-guide
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: verifier-related-circuit
+    from: verifier
+    to: circuit
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: xinshi-related-tapeout-market
+    from: xinshi
+    to: tapeout-market
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
+
+  - id: tapeweb-related-tape-url
+    from: tapeweb
+    to: tape-url
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/chickdady-svg/tapeout-beginner-guide/blob/main/docs/14-chapter-08.md
