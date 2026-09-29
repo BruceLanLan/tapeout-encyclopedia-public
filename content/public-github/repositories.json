@@ -75,5 +75,187 @@
     "category": "community",
     "summary": "Concept interface for a TapeOut XCHIP blind-box factory.",
     "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "Doufuru1/meme-circuit-bonds",
+    "url": "https://github.com/Doufuru1/meme-circuit-bonds",
+    "category": "community",
+    "summary": "Experimental bonding-curve project using TapeOut circuits.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "fashen002/bem-clock",
+    "url": "https://github.com/fashen002/bem-clock",
+    "category": "community",
+    "summary": "On-chain digital clock built from TapeOut circuits.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "jianfengliao774-sketch/heyue-BEM",
+    "url": "https://github.com/jianfengliao774-sketch/heyue-BEM",
+    "category": "community",
+    "summary": "Tool for creating an 8-bit Johnson counter on TapeOut.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "agent-evidence-lab/remembrance-seal",
+    "url": "https://github.com/agent-evidence-lab/remembrance-seal",
+    "category": "community",
+    "summary": "Agent permission imprints on TapeOut X Layer.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "neyosmt-byte/likely2X",
+    "url": "https://github.com/neyosmt-byte/likely2X",
+    "category": "community",
+    "summary": "X Layer ecosystem radar and hackathon submission workspace.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "IGNIX-IMOO/skillpass",
+    "url": "https://github.com/IGNIX-IMOO/skillpass",
+    "category": "community",
+    "summary": "Agent skill proof and ownership system using TapeOut and X Layer.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "runesleo/leolabs-agent-firewall",
+    "url": "https://github.com/runesleo/leolabs-agent-firewall",
+    "category": "community",
+    "summary": "Pre-sign AI treasury firewall with TapeOut circuit provenance.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "haivcon/LoteGate",
+    "url": "https://github.com/haivcon/LoteGate",
+    "category": "community",
+    "summary": "Batch-auction application built with TapeOut and X Layer.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "tizerluo/deweb-api-webmcp-draft",
+    "url": "https://github.com/tizerluo/deweb-api-webmcp-draft",
+    "category": "community",
+    "summary": "Unofficial DeWEB request-response and WebMCP draft.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "tizerluo/deweb-mcp-playground",
+    "url": "https://github.com/tizerluo/deweb-mcp-playground",
+    "category": "community",
+    "summary": "Off-chain playground for the unofficial DeWEB MCP draft.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "staveliu/DeSQL_wallet",
+    "url": "https://github.com/staveliu/DeSQL_wallet",
+    "category": "community",
+    "summary": "Multi-chain wallet experiment built around TapeOut.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "JogJohgoeg/tapeid",
+    "url": "https://github.com/JogJohgoeg/tapeid",
+    "category": "community",
+    "summary": "Tokenization concept for TapeOut circuits.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "yanwenzhe519-ctrl/tapeout-circuit-commons",
+    "url": "https://github.com/yanwenzhe519-ctrl/tapeout-circuit-commons",
+    "category": "community",
+    "summary": "Circuit licensing, usage receipts, and X Layer revenue vaults.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "tizerluo/neon-reliquary-xlayer",
+    "url": "https://github.com/tizerluo/neon-reliquary-xlayer",
+    "category": "community",
+    "summary": "Circuit-driven roguelite built for X Layer.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "davieslennox0/nandout",
+    "url": "https://github.com/davieslennox0/nandout",
+    "category": "community",
+    "summary": "NAND-circuit project built with TapeOut and X Layer.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "tomqaq1/tapeout-order-monitor",
+    "url": "https://github.com/tomqaq1/tapeout-order-monitor",
+    "category": "community",
+    "summary": "Windows application for TapeOut order monitoring and BNB Chain trading.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "bsc-signverify/secp256k1-auth-core",
+    "url": "https://github.com/bsc-signverify/secp256k1-auth-core",
+    "category": "community",
+    "summary": "Pure-NAND on-chain secp256k1 signature-verification processor.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "0xLukin/tapeoutgo",
+    "url": "https://github.com/0xLukin/tapeoutgo",
+    "category": "community",
+    "summary": "Budget-first BEM and Behemoth starter interface.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "h805846716/perpetua",
+    "url": "https://github.com/h805846716/perpetua",
+    "category": "community",
+    "summary": "Conway Game of Life circuit running on BNB Chain.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "JogJohgoeg/nand-driver",
+    "url": "https://github.com/JogJohgoeg/nand-driver",
+    "category": "community",
+    "summary": "On-chain driving game powered by 21 NAND gates.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "wetware-labs/nandfly",
+    "url": "https://github.com/wetware-labs/nandfly",
+    "category": "community",
+    "summary": "Fly-reflex circuit taped out on-chain.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "tomandpeter/mini-4",
+    "url": "https://github.com/tomandpeter/mini-4",
+    "category": "community",
+    "summary": "One-bit calculator reading BNB Chain contracts.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "staveliu/TapeSign",
+    "url": "https://github.com/staveliu/TapeSign",
+    "category": "community",
+    "summary": "On-chain signature and notarization application based on TapeOut.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "jayoo101/Tosh-Core",
+    "url": "https://github.com/jayoo101/Tosh-Core",
+    "category": "community",
+    "summary": "Fair-launch protocol using BEM and BNB Chain settlement.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "HongH933/tapeout-fly",
+    "url": "https://github.com/HongH933/tapeout-fly",
+    "category": "community",
+    "summary": "Fly-brain circuit project for TapeOut.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "HongH933/Drosophila",
+    "url": "https://github.com/HongH933/Drosophila",
+    "category": "community",
+    "summary": "Drosophila circuit work connected to TapeOut.",
+    "verified_at": "2026-09-30"
   }
 ]

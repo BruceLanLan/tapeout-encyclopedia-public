@@ -21,6 +21,10 @@
 
 内容根目录：[`content/README.md`](content/README.md)。每个 PR 都会通过 CI 运行 `npm run validate:content`。
 
+## 怎么玩：把它当作社区报社
+
+把这个仓库当作 TapeOut 生态的社区报社：姐妹仓库 [TapeOut 新手指南](https://github.com/chickdady-svg/tapeout-beginner-guide) 是负责校对、事实核验和稳定出版的「编辑部」，本百科则是面向社区开放的「小编辑邮箱与投稿台」。任何人都可以通过 Issue 投递公开线索、项目、术语或纠错，小编辑把材料整理成中英文词条、公开仓库目录和知识图谱，再通过 Pull Request 送审；涉及教材原文的修订转交编辑部，新增生态内容留在百科，实时数据只引用公开来源。最简单的玩法是：逛目录 → 开 Issue 投稿 → 认领词条 → 运行校验 → 提交 PR → 审阅发布。
+
 ## 公开 GitHub 仓库目录
 
 目录只收录通过两项匿名检查的仓库：GitHub API 必须返回 `private: false`，并且仓库必须允许未登录用户执行 Git 读取。校验工具检测到 GitHub 凭据时会拒绝运行。详见[公开 GitHub 收录规则](docs/PUBLIC_GITHUB_COLLECTION.zh-CN.md)。

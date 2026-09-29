@@ -18,6 +18,32 @@ describes discoverability, not endorsement or official status.
 | [ddgsdde/tap](https://github.com/ddgsdde/tap) | community | TapeOut leaderboards, netlists, BLIF, and BNB Chain market snapshots. | 2026-09-30 |
 | [azk3cd/tapeout-whitepaper](https://github.com/azk3cd/tapeout-whitepaper) | community | Independent technical analysis of the TapeOut Protocol. | 2026-09-30 |
 | [yaetcc/xchip](https://github.com/yaetcc/xchip) | community | Concept interface for a TapeOut XCHIP blind-box factory. | 2026-09-30 |
+| [Doufuru1/meme-circuit-bonds](https://github.com/Doufuru1/meme-circuit-bonds) | community | Experimental bonding-curve project using TapeOut circuits. | 2026-09-30 |
+| [fashen002/bem-clock](https://github.com/fashen002/bem-clock) | community | On-chain digital clock built from TapeOut circuits. | 2026-09-30 |
+| [jianfengliao774-sketch/heyue-BEM](https://github.com/jianfengliao774-sketch/heyue-BEM) | community | Tool for creating an 8-bit Johnson counter on TapeOut. | 2026-09-30 |
+| [agent-evidence-lab/remembrance-seal](https://github.com/agent-evidence-lab/remembrance-seal) | community | Agent permission imprints on TapeOut X Layer. | 2026-09-30 |
+| [neyosmt-byte/likely2X](https://github.com/neyosmt-byte/likely2X) | community | X Layer ecosystem radar and hackathon submission workspace. | 2026-09-30 |
+| [IGNIX-IMOO/skillpass](https://github.com/IGNIX-IMOO/skillpass) | community | Agent skill proof and ownership system using TapeOut and X Layer. | 2026-09-30 |
+| [runesleo/leolabs-agent-firewall](https://github.com/runesleo/leolabs-agent-firewall) | community | Pre-sign AI treasury firewall with TapeOut circuit provenance. | 2026-09-30 |
+| [haivcon/LoteGate](https://github.com/haivcon/LoteGate) | community | Batch-auction application built with TapeOut and X Layer. | 2026-09-30 |
+| [tizerluo/deweb-api-webmcp-draft](https://github.com/tizerluo/deweb-api-webmcp-draft) | community | Unofficial DeWEB request-response and WebMCP draft. | 2026-09-30 |
+| [tizerluo/deweb-mcp-playground](https://github.com/tizerluo/deweb-mcp-playground) | community | Off-chain playground for the unofficial DeWEB MCP draft. | 2026-09-30 |
+| [staveliu/DeSQL_wallet](https://github.com/staveliu/DeSQL_wallet) | community | Multi-chain wallet experiment built around TapeOut. | 2026-09-30 |
+| [JogJohgoeg/tapeid](https://github.com/JogJohgoeg/tapeid) | community | Tokenization concept for TapeOut circuits. | 2026-09-30 |
+| [yanwenzhe519-ctrl/tapeout-circuit-commons](https://github.com/yanwenzhe519-ctrl/tapeout-circuit-commons) | community | Circuit licensing, usage receipts, and X Layer revenue vaults. | 2026-09-30 |
+| [tizerluo/neon-reliquary-xlayer](https://github.com/tizerluo/neon-reliquary-xlayer) | community | Circuit-driven roguelite built for X Layer. | 2026-09-30 |
+| [davieslennox0/nandout](https://github.com/davieslennox0/nandout) | community | NAND-circuit project built with TapeOut and X Layer. | 2026-09-30 |
+| [tomqaq1/tapeout-order-monitor](https://github.com/tomqaq1/tapeout-order-monitor) | community | Windows application for TapeOut order monitoring and BNB Chain trading. | 2026-09-30 |
+| [bsc-signverify/secp256k1-auth-core](https://github.com/bsc-signverify/secp256k1-auth-core) | community | Pure-NAND on-chain secp256k1 signature-verification processor. | 2026-09-30 |
+| [0xLukin/tapeoutgo](https://github.com/0xLukin/tapeoutgo) | community | Budget-first BEM and Behemoth starter interface. | 2026-09-30 |
+| [h805846716/perpetua](https://github.com/h805846716/perpetua) | community | Conway Game of Life circuit running on BNB Chain. | 2026-09-30 |
+| [JogJohgoeg/nand-driver](https://github.com/JogJohgoeg/nand-driver) | community | On-chain driving game powered by 21 NAND gates. | 2026-09-30 |
+| [wetware-labs/nandfly](https://github.com/wetware-labs/nandfly) | community | Fly-reflex circuit taped out on-chain. | 2026-09-30 |
+| [tomandpeter/mini-4](https://github.com/tomandpeter/mini-4) | community | One-bit calculator reading BNB Chain contracts. | 2026-09-30 |
+| [staveliu/TapeSign](https://github.com/staveliu/TapeSign) | community | On-chain signature and notarization application based on TapeOut. | 2026-09-30 |
+| [jayoo101/Tosh-Core](https://github.com/jayoo101/Tosh-Core) | community | Fair-launch protocol using BEM and BNB Chain settlement. | 2026-09-30 |
+| [HongH933/tapeout-fly](https://github.com/HongH933/tapeout-fly) | community | Fly-brain circuit project for TapeOut. | 2026-09-30 |
+| [HongH933/Drosophila](https://github.com/HongH933/Drosophila) | community | Drosophila circuit work connected to TapeOut. | 2026-09-30 |
 
 The machine-readable source is [`repositories.json`](repositories.json). Follow the
 [collection policy](../../docs/PUBLIC_GITHUB_COLLECTION.md) before proposing an addition.

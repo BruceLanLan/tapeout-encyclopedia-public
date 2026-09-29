@@ -21,6 +21,10 @@
 
 Content root: [`content/README.md`](content/README.md) · CI runs `npm run validate:content` on every PR.
 
+## How to play: a community newsroom
+
+Think of this repository as the TapeOut community newspaper. The sibling [TapeOut Beginner Guide](https://github.com/chickdady-svg/tapeout-beginner-guide) is the editorial desk that fact-checks, proofreads, and publishes a stable textbook; this encyclopedia is the open inbox where community editors receive public leads, projects, terms, and corrections. Editors turn submissions into bilingual entries, a public repository directory, and knowledge-graph updates, then send them through Pull Requests for review. Textbook corrections go to the editorial desk, new ecosystem coverage stays here, and live data is cited from public sources. The shortest route is: browse → open an Issue → claim an entry → run validation → submit a PR → publish after review.
+
 ## Public GitHub directory
 
 The directory contains only repositories that pass two anonymous checks: the GitHub API must report
