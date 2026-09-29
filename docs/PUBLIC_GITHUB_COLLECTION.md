@@ -1,5 +1,7 @@
 # Public GitHub collection policy
 
+[English](PUBLIC_GITHUB_COLLECTION.md) · [简体中文](PUBLIC_GITHUB_COLLECTION.zh-CN.md)
+
 The encyclopedia accepts TapeOut-related repositories that can be verified from a clean, anonymous
 environment. Never run discovery with an account that can see private repositories.
 

@@ -1,5 +1,7 @@
 # TapeOut Encyclopedia
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 **GitHub-native open encyclopedia for the TapeOut ecosystem** — knowledge base, knowledge graph, and contribution standards for humans and AI agents.
 
 > 本仓库本身就是百科全书。在 GitHub 上阅读与投稿；Issue / Pull Request 是共建主路径。

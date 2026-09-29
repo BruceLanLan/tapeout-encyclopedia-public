@@ -1,5 +1,7 @@
 # Public TapeOut GitHub repositories
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 This directory lists GitHub repositories that are publicly accessible without authentication. Inclusion
 describes discoverability, not endorsement or official status.
 
