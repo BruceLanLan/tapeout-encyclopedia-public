@@ -8,6 +8,7 @@ Machine-readable layer consumed by the site and agents.
 | --- | --- |
 | `content/graph/entities.yaml` | Nodes |
 | `content/graph/relations.yaml` | Edges |
+| `content/graph/public-github.yaml` | Generated public-repository nodes and TapeOut edges |
 
 ## Entity
 
@@ -54,3 +55,4 @@ Rules:
 - Every `from` / `to` must exist in `entities.yaml`.
 - Prefer adding an entity stub before adding edges.
 - Do not encode market prices or yields as graph facts; link `data_refs` instead.
+- Repository nodes use `type: repository` and are generated from `content/public-github/repositories.json` by `npm run content`.

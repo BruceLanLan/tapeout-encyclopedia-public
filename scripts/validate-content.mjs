@@ -51,6 +51,7 @@ if (!fs.existsSync(ENTRY_JSON_SCHEMA)) {
 const errors = [];
 const entriesRoot = path.join(root, "content", "entries");
 const entityIds = new Set();
+const relationIds = new Set();
 
 const entitiesDoc = parseYaml(
   fs.readFileSync(path.join(root, "content", "graph", "entities.yaml"), "utf8"),
@@ -60,10 +61,72 @@ for (const e of entitiesDoc.entities ?? []) {
   entityIds.add(e.id);
 }
 
+const publicGitHubGraph = parseYaml(
+  fs.readFileSync(
+    path.join(root, "content", "graph", "public-github.yaml"),
+    "utf8",
+  ),
+);
+const publicGitHubCatalog = JSON.parse(
+  fs.readFileSync(
+    path.join(root, "content", "public-github", "repositories.json"),
+    "utf8",
+  ),
+);
+const repositoryEntityId = (fullName) =>
+  `repo-${fullName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
+const repositoryEntities = publicGitHubGraph.entities ?? [];
+const repositoryRelations = publicGitHubGraph.relations ?? [];
+
+if (repositoryEntities.length !== publicGitHubCatalog.length) {
+  errors.push(
+    `Public GitHub graph entity count ${repositoryEntities.length} does not match catalog ${publicGitHubCatalog.length}`,
+  );
+}
+if (repositoryRelations.length !== publicGitHubCatalog.length) {
+  errors.push(
+    `Public GitHub graph relation count ${repositoryRelations.length} does not match catalog ${publicGitHubCatalog.length}`,
+  );
+}
+
+const repositoryEntityById = new Map(
+  repositoryEntities.map((entity) => [entity.id, entity]),
+);
+for (const repository of publicGitHubCatalog) {
+  const id = repositoryEntityId(repository.full_name);
+  const entity = repositoryEntityById.get(id);
+  if (!entity) {
+    errors.push(`Missing public repository graph entity: ${id}`);
+    continue;
+  }
+  if (entity.official_url !== repository.url) {
+    errors.push(`Public repository graph URL mismatch: ${id}`);
+  }
+  const expectedTier =
+    repository.category === "official" ? "official" : "community";
+  if (entity.source_tier !== expectedTier) {
+    errors.push(`Public repository graph source tier mismatch: ${id}`);
+  }
+}
+for (const e of repositoryEntities) {
+  if (entityIds.has(e.id)) errors.push(`Duplicate entity id: ${e.id}`);
+  entityIds.add(e.id);
+}
+
 const relationsDoc = parseYaml(
   fs.readFileSync(path.join(root, "content", "graph", "relations.yaml"), "utf8"),
 );
 for (const r of relationsDoc.relations ?? []) {
+  if (relationIds.has(r.id)) errors.push(`Duplicate relation id: ${r.id}`);
+  relationIds.add(r.id);
+  if (!entityIds.has(r.from))
+    errors.push(`Relation ${r.id} from unknown entity: ${r.from}`);
+  if (!entityIds.has(r.to))
+    errors.push(`Relation ${r.id} to unknown entity: ${r.to}`);
+}
+for (const r of repositoryRelations) {
+  if (relationIds.has(r.id)) errors.push(`Duplicate relation id: ${r.id}`);
+  relationIds.add(r.id);
   if (!entityIds.has(r.from))
     errors.push(`Relation ${r.id} from unknown entity: ${r.from}`);
   if (!entityIds.has(r.to))

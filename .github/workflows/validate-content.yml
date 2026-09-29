@@ -23,4 +23,6 @@ jobs:
           else
             npm install
           fi
-      - run: npm run validate:content
+      - run: npm run content
+      - name: Verify generated content is committed
+        run: git diff --exit-code -- content/graph content/entries

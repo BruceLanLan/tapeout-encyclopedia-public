@@ -87,15 +87,33 @@ export function readEntry(locale: string, slug: string): Entry | null {
 export function loadGraph(): { entities: Entity[]; relations: Relation[] } {
   const entitiesPath = path.join(root, "content", "graph", "entities.yaml");
   const relationsPath = path.join(root, "content", "graph", "relations.yaml");
+  const publicGitHubPath = path.join(
+    root,
+    "content",
+    "graph",
+    "public-github.yaml",
+  );
   const entitiesDoc = parseYaml(fs.readFileSync(entitiesPath, "utf8")) as {
     entities: Entity[];
   };
   const relationsDoc = parseYaml(fs.readFileSync(relationsPath, "utf8")) as {
     relations: Relation[];
   };
+  const publicGitHubDoc = parseYaml(
+    fs.readFileSync(publicGitHubPath, "utf8"),
+  ) as {
+    entities: Entity[];
+    relations: Relation[];
+  };
   return {
-    entities: entitiesDoc.entities ?? [],
-    relations: relationsDoc.relations ?? [],
+    entities: [
+      ...(entitiesDoc.entities ?? []),
+      ...(publicGitHubDoc.entities ?? []),
+    ],
+    relations: [
+      ...(relationsDoc.relations ?? []),
+      ...(publicGitHubDoc.relations ?? []),
+    ],
   };
 }
 

@@ -31,14 +31,18 @@ export default function GraphPage() {
               <div className="text-xs text-[var(--mute)]">
                 {e.id} · {e.type} · {e.source_tier}
               </div>
-              {e.entry_slugs?.zh ? (
-                <Link
-                  href={`/entries/zh/${e.entry_slugs.zh}`}
-                  className="mt-2 inline-block text-sm text-[var(--brand)]"
-                >
-                  Open entry →
-                </Link>
-              ) : null}
+              <div className="mt-2 flex flex-wrap gap-3 text-sm text-[var(--brand)]">
+                {e.entry_slugs?.zh ? (
+                  <Link href={`/entries/zh/${e.entry_slugs.zh}`}>
+                    Open entry →
+                  </Link>
+                ) : null}
+                {e.official_url ? (
+                  <a href={e.official_url} target="_blank" rel="noreferrer">
+                    Open source ↗
+                  </a>
+                ) : null}
+              </div>
             </li>
           ))}
         </ul>

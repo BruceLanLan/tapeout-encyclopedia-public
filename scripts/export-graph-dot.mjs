@@ -9,6 +9,14 @@ const entities = parseYaml(
 const relations = parseYaml(
   fs.readFileSync(path.join(root, "content", "graph", "relations.yaml"), "utf8"),
 ).relations;
+const publicGitHub = parseYaml(
+  fs.readFileSync(
+    path.join(root, "content", "graph", "public-github.yaml"),
+    "utf8",
+  ),
+);
+entities.push(...(publicGitHub.entities ?? []));
+relations.push(...(publicGitHub.relations ?? []));
 
 const escape = (s) => String(s).replace(/"/g, '\\"');
 const lines = [
