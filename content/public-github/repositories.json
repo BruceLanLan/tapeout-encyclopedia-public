@@ -257,5 +257,54 @@
     "category": "community",
     "summary": "Drosophila circuit work connected to TapeOut.",
     "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "a18604585304-hub/remembrance-seal",
+    "url": "https://github.com/a18604585304-hub/remembrance-seal",
+    "category": "community",
+    "summary": "Agent permission-seal factory for the X Layer hackathon.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "memeshee/drawagent",
+    "url": "https://github.com/memeshee/drawagent",
+    "category": "community",
+    "summary": "Trustless draws and votes using TapeOut NAND circuits.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "kvzuobai/stego",
+    "url": "https://github.com/kvzuobai/stego",
+    "category": "community",
+    "summary": "Circuit-governed vaults with verifiable risk policies.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "lichao01111-dot/rulechip",
+    "url": "https://github.com/lichao01111-dot/rulechip",
+    "category": "community",
+    "summary": "Provable game rules implemented as TapeOut circuits.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "seekdaseek/fabrica",
+    "url": "https://github.com/seekdaseek/fabrica",
+    "category": "community",
+    "summary": "Design-to-earn market for smaller equivalent TapeOut circuits.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "SERAPH125/patchnand",
+    "url": "https://github.com/SERAPH125/patchnand",
+    "category": "community",
+    "summary": "Human-reviewed repair demo with circuit-decided outcomes.",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "w522mp8vf8-create/signal-processor",
+    "url": "https://github.com/w522mp8vf8-create/signal-processor",
+    "category": "community",
+    "summary": "X Layer revenue-sharing processor for AI signal agents.",
+    "verified_at": "2026-09-30"
   }
 ]

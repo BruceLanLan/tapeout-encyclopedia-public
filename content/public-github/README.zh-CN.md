@@ -43,5 +43,12 @@
 | [jayoo101/Tosh-Core](https://github.com/jayoo101/Tosh-Core) | 社区 | 使用 BEM 和 BNB Chain 结算的公平发行协议。 | 2026-09-30 |
 | [HongH933/tapeout-fly](https://github.com/HongH933/tapeout-fly) | 社区 | 面向 TapeOut 的果蝇脑电路项目。 | 2026-09-30 |
 | [HongH933/Drosophila](https://github.com/HongH933/Drosophila) | 社区 | 与 TapeOut 相关的果蝇电路项目。 | 2026-09-30 |
+| [a18604585304-hub/remembrance-seal](https://github.com/a18604585304-hub/remembrance-seal) | 社区 | 面向 X Layer 黑客松的 Agent 权限印章工厂。 | 2026-09-30 |
+| [memeshee/drawagent](https://github.com/memeshee/drawagent) | 社区 | 使用 TapeOut NAND 电路执行的无需信任抽奖与投票。 | 2026-09-30 |
+| [kvzuobai/stego](https://github.com/kvzuobai/stego) | 社区 | 使用可验证风险策略的电路治理金库。 | 2026-09-30 |
+| [lichao01111-dot/rulechip](https://github.com/lichao01111-dot/rulechip) | 社区 | 把可证明游戏规则实现为 TapeOut 电路。 | 2026-09-30 |
+| [seekdaseek/fabrica](https://github.com/seekdaseek/fabrica) | 社区 | 奖励更小等价 TapeOut 电路的设计市场。 | 2026-09-30 |
+| [SERAPH125/patchnand](https://github.com/SERAPH125/patchnand) | 社区 | 由人工审阅、交给电路裁决结果的修复演示。 | 2026-09-30 |
+| [w522mp8vf8-create/signal-processor](https://github.com/w522mp8vf8-create/signal-processor) | 社区 | 面向 AI 信号 Agent 的 X Layer 收益分配处理器。 | 2026-09-30 |
 
 机器可读数据位于 [`repositories.json`](repositories.json)。提交新仓库前，请先阅读[公开 GitHub 收录规则](../../docs/PUBLIC_GITHUB_COLLECTION.zh-CN.md)。

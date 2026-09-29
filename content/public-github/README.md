@@ -44,6 +44,13 @@ describes discoverability, not endorsement or official status.
 | [jayoo101/Tosh-Core](https://github.com/jayoo101/Tosh-Core) | community | Fair-launch protocol using BEM and BNB Chain settlement. | 2026-09-30 |
 | [HongH933/tapeout-fly](https://github.com/HongH933/tapeout-fly) | community | Fly-brain circuit project for TapeOut. | 2026-09-30 |
 | [HongH933/Drosophila](https://github.com/HongH933/Drosophila) | community | Drosophila circuit work connected to TapeOut. | 2026-09-30 |
+| [a18604585304-hub/remembrance-seal](https://github.com/a18604585304-hub/remembrance-seal) | community | Agent permission-seal factory for the X Layer hackathon. | 2026-09-30 |
+| [memeshee/drawagent](https://github.com/memeshee/drawagent) | community | Trustless draws and votes using TapeOut NAND circuits. | 2026-09-30 |
+| [kvzuobai/stego](https://github.com/kvzuobai/stego) | community | Circuit-governed vaults with verifiable risk policies. | 2026-09-30 |
+| [lichao01111-dot/rulechip](https://github.com/lichao01111-dot/rulechip) | community | Provable game rules implemented as TapeOut circuits. | 2026-09-30 |
+| [seekdaseek/fabrica](https://github.com/seekdaseek/fabrica) | community | Design-to-earn market for smaller equivalent TapeOut circuits. | 2026-09-30 |
+| [SERAPH125/patchnand](https://github.com/SERAPH125/patchnand) | community | Human-reviewed repair demo with circuit-decided outcomes. | 2026-09-30 |
+| [w522mp8vf8-create/signal-processor](https://github.com/w522mp8vf8-create/signal-processor) | community | X Layer revenue-sharing processor for AI signal agents. | 2026-09-30 |
 
 The machine-readable source is [`repositories.json`](repositories.json). Follow the
 [collection policy](../../docs/PUBLIC_GITHUB_COLLECTION.md) before proposing an addition.
