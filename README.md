@@ -1,68 +1,65 @@
-# TapeOut Encyclopedia
+# TapeOut 百科
 
-[English](README.md) · [简体中文](README.zh-CN.md)
+[简体中文](README.md) · [English](README.en.md)
 
-**GitHub-native open encyclopedia for the TapeOut ecosystem** — knowledge base, knowledge graph, and contribution standards for humans and AI agents.
+**以 GitHub 为核心的 TapeOut 开放百科**——面向人类和 AI Agent 的知识库、知识图谱与共建标准。
 
-> 本仓库本身就是百科全书。在 GitHub 上阅读与投稿；Issue / Pull Request 是共建主路径。
+> 本仓库本身就是百科全书。在 GitHub 上阅读与投稿；Issue 和 Pull Request 是主要共建路径。
 
-## Read on GitHub
+## 在 GitHub 上阅读
 
-| Start here | Link |
+| 从这里开始 | 链接 |
 | --- | --- |
 | 中文词条 | [`content/entries/zh/`](content/entries/zh/README.md) |
-| English entries | [`content/entries/en/`](content/entries/en/README.md) |
-| Knowledge graph | [`content/graph/`](content/graph/README.md) |
-| Content roadmap | [`content/ROADMAP.md`](content/ROADMAP.md) |
-| Public GitHub directory | [`content/public-github/`](content/public-github/README.md) |
-| Contribution standards | [`specs/00-overview.md`](specs/00-overview.md) |
-| Agent protocol | [`specs/05-agent-protocol.md`](specs/05-agent-protocol.md) · [`AGENTS.md`](AGENTS.md) |
-| Why not expand the beginner guide? | [`docs/WHY_NEW_REPO.md`](docs/WHY_NEW_REPO.md) |
+| 英文词条 | [`content/entries/en/`](content/entries/en/README.md) |
+| 知识图谱 | [`content/graph/`](content/graph/README.md) |
+| 内容路线图 | [`content/ROADMAP.md`](content/ROADMAP.md) |
+| 公开 GitHub 仓库目录 | [`content/public-github/`](content/public-github/README.zh-CN.md) |
+| 共建标准 | [`specs/00-overview.md`](specs/00-overview.md) |
+| Agent 协议 | [`specs/05-agent-protocol.md`](specs/05-agent-protocol.md) · [`AGENTS.md`](AGENTS.md) |
+| 为什么不扩写新手指南？ | [`docs/WHY_NEW_REPO.md`](docs/WHY_NEW_REPO.md) |
 
-Content root: [`content/README.md`](content/README.md) · CI runs `npm run validate:content` on every PR.
+内容根目录：[`content/README.md`](content/README.md)。每个 PR 都会通过 CI 运行 `npm run validate:content`。
 
-## Public GitHub directory
+## 公开 GitHub 仓库目录
 
-The directory contains only repositories that pass two anonymous checks: the GitHub API must report
-`private: false`, and the repository must answer an unauthenticated Git read. The verification tool
-refuses to run when GitHub credentials are present. See
-[`docs/PUBLIC_GITHUB_COLLECTION.md`](docs/PUBLIC_GITHUB_COLLECTION.md).
+目录只收录通过两项匿名检查的仓库：GitHub API 必须返回 `private: false`，并且仓库必须允许未登录用户执行 Git 读取。校验工具检测到 GitHub 凭据时会拒绝运行。详见[公开 GitHub 收录规则](docs/PUBLIC_GITHUB_COLLECTION.zh-CN.md)。
 
-## How collaboration works
+## 如何共建
 
 ```text
-Issue (propose) → Fork / branch → Edit Markdown + YAML in this repo → PR → Review → Merge
-         ↑                                      ↑
-    humans or agents              npm run validate:content
+Issue（提议）→ Fork / 分支 → 修改仓库内的 Markdown + YAML → PR → 审阅 → 合并
+       ↑                                           ↑
+  人类或 Agent                         npm run validate:content
 ```
 
-1. Open an Issue ([templates](.github/ISSUE_TEMPLATE/)) — new entry, translation, or graph change.
-2. Edit files under `content/` (and `specs/` if changing standards).
-3. Keep entity ids in sync with `content/graph/entities.yaml`.
-4. Open a Pull Request using the [PR template](.github/PULL_REQUEST_TEMPLATE.md).
-5. Maintainers review source tiers and safety boundaries before `published`.
+1. 使用 [Issue 模板](.github/ISSUE_TEMPLATE/)提出新词条、翻译或图谱变更。
+2. 修改 `content/` 下的文件；若调整标准，则同时修改 `specs/`。
+3. 保持实体 ID 与 `content/graph/entities.yaml` 一致。
+4. 使用 [PR 模板](.github/PULL_REQUEST_TEMPLATE.md)提交 Pull Request。
+5. 维护者核对来源等级和安全边界后，才能把内容标记为 `published`。
 
-Multilingual by design: same `slug` across `content/entries/<locale>/`. See [`specs/04-i18n.md`](specs/04-i18n.md). Agents must follow [`specs/05-agent-protocol.md`](specs/05-agent-protocol.md).
+本项目原生支持多语言：同一实体在 `content/entries/<locale>/` 下使用相同的 `slug`。详见 [`specs/04-i18n.md`](specs/04-i18n.md)。Agent 必须遵守 [`specs/05-agent-protocol.md`](specs/05-agent-protocol.md)。
 
-## Ecosystem layers (do not collapse)
+## 生态分层
 
-| Layer | Repo / site | Job |
+| 层级 | 仓库 / 网站 | 职责 |
 | --- | --- | --- |
-| Textbook | [beginner guide](https://github.com/chickdady-svg/tapeout-beginner-guide) | Stable guide, PDF page provenance, **no expansion** |
-| **Encyclopedia (this repo)** | GitHub Markdown + YAML | Expandable entries, graph, i18n, agent standards |
+| 教材 | [TapeOut 新手指南](https://github.com/chickdady-svg/tapeout-beginner-guide) | 稳定教材、PDF 页码溯源，不扩写 |
+| **百科（本仓库）** | GitHub Markdown + YAML | 可扩展词条、知识图谱、国际化与 Agent 标准 |
 
-**Cross-repo workflow:** [`docs/CROSS_REPO_WORKFLOW.md`](docs/CROSS_REPO_WORKFLOW.md) · **Governance:** [`docs/GOVERNANCE.md`](docs/GOVERNANCE.md) · **Labels:** [`docs/LABELS.md`](docs/LABELS.md)
+跨仓流程：[`docs/CROSS_REPO_WORKFLOW.md`](docs/CROSS_REPO_WORKFLOW.md) · 治理：[`docs/GOVERNANCE.md`](docs/GOVERNANCE.md) · 标签：[`docs/LABELS.md`](docs/LABELS.md)
 
-## Optional local preview
+## 可选本地预览
 
-A small Next.js reader can render the same Git files locally. **GitHub remains the source of truth.**
+仓库附带一个小型 Next.js 阅读器，用于在本地渲染相同的 Git 文件。GitHub 仍是真相源。
 
 ```bash
 npm install
-npm run content   # validate + regen indexes + export graph.dot
+npm run content   # 校验内容、重建索引并导出 graph.dot
 npm run dev       # http://127.0.0.1:43127
 ```
 
-## License note
+## 许可说明
 
-Cite sources. Respect upstream licenses. Do not paste large copyrighted excerpts from closed materials.
+请注明来源并遵守上游许可，不要大段转载封闭材料中的受版权保护内容。
