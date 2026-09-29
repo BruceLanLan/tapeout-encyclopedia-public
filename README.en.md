@@ -12,7 +12,7 @@
 | --- | --- |
 | 中文词条 | [`content/entries/zh/`](content/entries/zh/README.md) |
 | English entries | [`content/entries/en/`](content/entries/en/README.md) |
-| Knowledge graph | [`content/graph/`](content/graph/README.md) |
+| Knowledge graph | [Visual overview](content/graph/overview.md) · [`content/graph/`](content/graph/README.md) |
 | Content roadmap | [`content/ROADMAP.md`](content/ROADMAP.md) |
 | Public GitHub directory | [`content/public-github/`](content/public-github/README.md) |
 | Contribution standards | [`specs/00-overview.md`](specs/00-overview.md) |

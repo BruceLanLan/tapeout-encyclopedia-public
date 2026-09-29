@@ -4,6 +4,7 @@ Machine-readable layer of the encyclopedia. Edit on GitHub; agents and tools con
 
 | File | Role |
 | --- | --- |
+| [`overview.md`](overview.md) | GitHub-rendered Mermaid overview with current graph counts |
 | [`entities.yaml`](entities.yaml) | Nodes (`id`, labels, entry slugs, source tier) |
 | [`relations.yaml`](relations.yaml) | Edges (`from`, `to`, `type`, confidence, sources) |
 | [`public-github.yaml`](public-github.yaml) | Generated repository nodes and edges from the public GitHub catalog |

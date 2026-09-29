@@ -12,7 +12,7 @@
 | --- | --- |
 | 中文词条 | [`content/entries/zh/`](content/entries/zh/README.md) |
 | 英文词条 | [`content/entries/en/`](content/entries/en/README.md) |
-| 知识图谱 | [`content/graph/`](content/graph/README.md) |
+| 知识图谱 | [可视化概览](content/graph/overview.md) · [`content/graph/`](content/graph/README.md) |
 | 内容路线图 | [`content/ROADMAP.md`](content/ROADMAP.md) |
 | 公开 GitHub 仓库目录 | [`content/public-github/`](content/public-github/README.zh-CN.md) |
 | 共建标准 | [`specs/00-overview.md`](specs/00-overview.md) |
