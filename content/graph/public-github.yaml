@@ -184,14 +184,6 @@ entities:
     aliases: []
     source_tier: community
     official_url: https://github.com/JogJohgoeg/tapeid
-  - id: repo-yanwenzhe519-ctrl-tapeout-circuit-commons
-    type: repository
-    label:
-      zh: yanwenzhe519-ctrl/tapeout-circuit-commons
-      en: yanwenzhe519-ctrl/tapeout-circuit-commons
-    aliases: []
-    source_tier: community
-    official_url: https://github.com/yanwenzhe519-ctrl/tapeout-circuit-commons
   - id: repo-tizerluo-neon-reliquary-xlayer
     type: repository
     label:
@@ -328,14 +320,6 @@ entities:
     aliases: []
     source_tier: community
     official_url: https://github.com/lichao01111-dot/rulechip
-  - id: repo-seekdaseek-fabrica
-    type: repository
-    label:
-      zh: seekdaseek/fabrica
-      en: seekdaseek/fabrica
-    aliases: []
-    source_tier: community
-    official_url: https://github.com/seekdaseek/fabrica
   - id: repo-seraph125-patchnand
     type: repository
     label:
@@ -352,6 +336,14 @@ entities:
     aliases: []
     source_tier: community
     official_url: https://github.com/w522mp8vf8-create/signal-processor
+  - id: repo-livastic-vm5-primary-20260911-tapeout-xlayer-integrity-lens
+    type: repository
+    label:
+      zh: livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens
+      en: livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens
+    aliases: []
+    source_tier: community
+    official_url: https://github.com/livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens
 relations:
   - id: repo-tapeoutprotocol-tapekit-related-to-tapeout
     from: repo-tapeoutprotocol-tapekit
@@ -537,14 +529,6 @@ relations:
     source_tier: community
     sources:
       - https://github.com/JogJohgoeg/tapeid
-  - id: repo-yanwenzhe519-ctrl-tapeout-circuit-commons-related-to-tapeout
-    from: repo-yanwenzhe519-ctrl-tapeout-circuit-commons
-    to: tapeout
-    type: related_to
-    confidence: medium
-    source_tier: community
-    sources:
-      - https://github.com/yanwenzhe519-ctrl/tapeout-circuit-commons
   - id: repo-tizerluo-neon-reliquary-xlayer-related-to-tapeout
     from: repo-tizerluo-neon-reliquary-xlayer
     to: tapeout
@@ -681,14 +665,6 @@ relations:
     source_tier: community
     sources:
       - https://github.com/lichao01111-dot/rulechip
-  - id: repo-seekdaseek-fabrica-related-to-tapeout
-    from: repo-seekdaseek-fabrica
-    to: tapeout
-    type: related_to
-    confidence: medium
-    source_tier: community
-    sources:
-      - https://github.com/seekdaseek/fabrica
   - id: repo-seraph125-patchnand-related-to-tapeout
     from: repo-seraph125-patchnand
     to: tapeout
@@ -705,3 +681,11 @@ relations:
     source_tier: community
     sources:
       - https://github.com/w522mp8vf8-create/signal-processor
+  - id: repo-livastic-vm5-primary-20260911-tapeout-xlayer-integrity-lens-related-to-tapeout
+    from: repo-livastic-vm5-primary-20260911-tapeout-xlayer-integrity-lens
+    to: tapeout
+    type: related_to
+    confidence: medium
+    source_tier: community
+    sources:
+      - https://github.com/livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens

@@ -161,13 +161,6 @@
     "verified_at": "2026-09-30"
   },
   {
-    "full_name": "yanwenzhe519-ctrl/tapeout-circuit-commons",
-    "url": "https://github.com/yanwenzhe519-ctrl/tapeout-circuit-commons",
-    "category": "community",
-    "summary": "Circuit licensing, usage receipts, and X Layer revenue vaults.",
-    "verified_at": "2026-09-30"
-  },
-  {
     "full_name": "tizerluo/neon-reliquary-xlayer",
     "url": "https://github.com/tizerluo/neon-reliquary-xlayer",
     "category": "community",
@@ -287,13 +280,6 @@
     "verified_at": "2026-09-30"
   },
   {
-    "full_name": "seekdaseek/fabrica",
-    "url": "https://github.com/seekdaseek/fabrica",
-    "category": "community",
-    "summary": "Design-to-earn market for smaller equivalent TapeOut circuits.",
-    "verified_at": "2026-09-30"
-  },
-  {
     "full_name": "SERAPH125/patchnand",
     "url": "https://github.com/SERAPH125/patchnand",
     "category": "community",
@@ -306,5 +292,12 @@
     "category": "community",
     "summary": "X Layer revenue-sharing processor for AI signal agents.",
     "verified_at": "2026-09-30"
+  },
+  {
+    "full_name": "livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens",
+    "url": "https://github.com/livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens",
+    "category": "community",
+    "summary": "Read-only X Layer TapeOut factory, market, and CPU0 explorer with 20-field historical change reviews.",
+    "verified_at": "2026-10-24"
   }
 ]

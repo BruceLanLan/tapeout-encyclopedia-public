@@ -29,7 +29,6 @@
 | [tizerluo/deweb-mcp-playground](https://github.com/tizerluo/deweb-mcp-playground) | 社区 | 非官方 DeWEB MCP 草案的链下实验场。 | 2026-09-30 |
 | [staveliu/DeSQL_wallet](https://github.com/staveliu/DeSQL_wallet) | 社区 | 围绕 TapeOut 构建的多链钱包实验。 | 2026-09-30 |
 | [JogJohgoeg/tapeid](https://github.com/JogJohgoeg/tapeid) | 社区 | TapeOut 电路代币化概念项目。 | 2026-09-30 |
-| [yanwenzhe519-ctrl/tapeout-circuit-commons](https://github.com/yanwenzhe519-ctrl/tapeout-circuit-commons) | 社区 | 电路许可、使用凭证与 X Layer 收益金库。 | 2026-09-30 |
 | [tizerluo/neon-reliquary-xlayer](https://github.com/tizerluo/neon-reliquary-xlayer) | 社区 | 为 X Layer 构建的电路驱动 Roguelite 游戏。 | 2026-09-30 |
 | [davieslennox0/nandout](https://github.com/davieslennox0/nandout) | 社区 | 使用 TapeOut 与 X Layer 的 NAND 电路项目。 | 2026-09-30 |
 | [tomqaq1/tapeout-order-monitor](https://github.com/tomqaq1/tapeout-order-monitor) | 社区 | 用于 TapeOut 订单监控和 BNB Chain 交易的 Windows 应用。 | 2026-09-30 |
@@ -47,8 +46,9 @@
 | [memeshee/drawagent](https://github.com/memeshee/drawagent) | 社区 | 使用 TapeOut NAND 电路执行的无需信任抽奖与投票。 | 2026-09-30 |
 | [kvzuobai/stego](https://github.com/kvzuobai/stego) | 社区 | 使用可验证风险策略的电路治理金库。 | 2026-09-30 |
 | [lichao01111-dot/rulechip](https://github.com/lichao01111-dot/rulechip) | 社区 | 把可证明游戏规则实现为 TapeOut 电路。 | 2026-09-30 |
-| [seekdaseek/fabrica](https://github.com/seekdaseek/fabrica) | 社区 | 奖励更小等价 TapeOut 电路的设计市场。 | 2026-09-30 |
 | [SERAPH125/patchnand](https://github.com/SERAPH125/patchnand) | 社区 | 由人工审阅、交给电路裁决结果的修复演示。 | 2026-09-30 |
 | [w522mp8vf8-create/signal-processor](https://github.com/w522mp8vf8-create/signal-processor) | 社区 | 面向 AI 信号 Agent 的 X Layer 收益分配处理器。 | 2026-09-30 |
+
+| [livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens](https://github.com/livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens) | 社区 | 只读 X Layer TapeOut 工厂、市场与 CPU0 浏览器，支持 20 字段历史状态变化审阅。 | 2026-10-24 |
 
 机器可读数据位于 [`repositories.json`](repositories.json)。提交新仓库前，请先阅读[公开 GitHub 收录规则](../../docs/PUBLIC_GITHUB_COLLECTION.zh-CN.md)。

@@ -1,6 +1,6 @@
 # TapeOut 知识图谱概览
 
-当前快照：**86 个实体 · 91 条关系 · 44 个匿名验证的公开 GitHub 仓库**。
+当前快照：**85 个实体 · 90 条关系 · 43 个匿名验证的公开 GitHub 仓库**。
 
 > 这是便于在 GitHub 上阅读的核心关系概览。完整节点与边以 YAML 和 DOT 文件为准。
 
@@ -9,7 +9,7 @@ flowchart LR
   community["社区投稿"] -->|Issue / PR| encyclopedia["TapeOut 百科<br/>词条 · 图谱 · i18n"]
   guide["新手指南<br/>编辑部"] -->|documents| tapeout["TapeOut"]
   encyclopedia -->|documents| tapeout
-  repositories["公开 GitHub 目录<br/>44 repositories"] -->|related_to| tapeout
+  repositories["公开 GitHub 目录<br/>43 repositories"] -->|related_to| tapeout
   data["tapeout.work<br/>公开观测数据"] -->|observes| tapeout
   tapekit["TapeKit"] -->|part_of| tapeout
   canvas["Canvas"] -->|part_of| tapeout

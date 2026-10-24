@@ -30,7 +30,6 @@ describes discoverability, not endorsement or official status.
 | [tizerluo/deweb-mcp-playground](https://github.com/tizerluo/deweb-mcp-playground) | community | Off-chain playground for the unofficial DeWEB MCP draft. | 2026-09-30 |
 | [staveliu/DeSQL_wallet](https://github.com/staveliu/DeSQL_wallet) | community | Multi-chain wallet experiment built around TapeOut. | 2026-09-30 |
 | [JogJohgoeg/tapeid](https://github.com/JogJohgoeg/tapeid) | community | Tokenization concept for TapeOut circuits. | 2026-09-30 |
-| [yanwenzhe519-ctrl/tapeout-circuit-commons](https://github.com/yanwenzhe519-ctrl/tapeout-circuit-commons) | community | Circuit licensing, usage receipts, and X Layer revenue vaults. | 2026-09-30 |
 | [tizerluo/neon-reliquary-xlayer](https://github.com/tizerluo/neon-reliquary-xlayer) | community | Circuit-driven roguelite built for X Layer. | 2026-09-30 |
 | [davieslennox0/nandout](https://github.com/davieslennox0/nandout) | community | NAND-circuit project built with TapeOut and X Layer. | 2026-09-30 |
 | [tomqaq1/tapeout-order-monitor](https://github.com/tomqaq1/tapeout-order-monitor) | community | Windows application for TapeOut order monitoring and BNB Chain trading. | 2026-09-30 |
@@ -48,9 +47,10 @@ describes discoverability, not endorsement or official status.
 | [memeshee/drawagent](https://github.com/memeshee/drawagent) | community | Trustless draws and votes using TapeOut NAND circuits. | 2026-09-30 |
 | [kvzuobai/stego](https://github.com/kvzuobai/stego) | community | Circuit-governed vaults with verifiable risk policies. | 2026-09-30 |
 | [lichao01111-dot/rulechip](https://github.com/lichao01111-dot/rulechip) | community | Provable game rules implemented as TapeOut circuits. | 2026-09-30 |
-| [seekdaseek/fabrica](https://github.com/seekdaseek/fabrica) | community | Design-to-earn market for smaller equivalent TapeOut circuits. | 2026-09-30 |
 | [SERAPH125/patchnand](https://github.com/SERAPH125/patchnand) | community | Human-reviewed repair demo with circuit-decided outcomes. | 2026-09-30 |
 | [w522mp8vf8-create/signal-processor](https://github.com/w522mp8vf8-create/signal-processor) | community | X Layer revenue-sharing processor for AI signal agents. | 2026-09-30 |
+
+| [livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens](https://github.com/livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens) | community | Read-only X Layer TapeOut factory, market, and CPU0 explorer with 20-field historical change reviews. | 2026-10-24 |
 
 The machine-readable source is [`repositories.json`](repositories.json). Follow the
 [collection policy](../../docs/PUBLIC_GITHUB_COLLECTION.md) before proposing an addition.

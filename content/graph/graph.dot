@@ -67,7 +67,6 @@ digraph TapeOutEncyclopedia {
   "repo-tizerluo-deweb-mcp-playground" [label="tizerluo/deweb-mcp-playground\n(repository)"];
   "repo-staveliu-desql-wallet" [label="staveliu/DeSQL_wallet\n(repository)"];
   "repo-jogjohgoeg-tapeid" [label="JogJohgoeg/tapeid\n(repository)"];
-  "repo-yanwenzhe519-ctrl-tapeout-circuit-commons" [label="yanwenzhe519-ctrl/tapeout-circuit-commons\n(repository)"];
   "repo-tizerluo-neon-reliquary-xlayer" [label="tizerluo/neon-reliquary-xlayer\n(repository)"];
   "repo-davieslennox0-nandout" [label="davieslennox0/nandout\n(repository)"];
   "repo-tomqaq1-tapeout-order-monitor" [label="tomqaq1/tapeout-order-monitor\n(repository)"];
@@ -85,9 +84,9 @@ digraph TapeOutEncyclopedia {
   "repo-memeshee-drawagent" [label="memeshee/drawagent\n(repository)"];
   "repo-kvzuobai-stego" [label="kvzuobai/stego\n(repository)"];
   "repo-lichao01111-dot-rulechip" [label="lichao01111-dot/rulechip\n(repository)"];
-  "repo-seekdaseek-fabrica" [label="seekdaseek/fabrica\n(repository)"];
   "repo-seraph125-patchnand" [label="SERAPH125/patchnand\n(repository)"];
   "repo-w522mp8vf8-create-signal-processor" [label="w522mp8vf8-create/signal-processor\n(repository)"];
+  "repo-livastic-vm5-primary-20260911-tapeout-xlayer-integrity-lens" [label="livastic-vm5-primary-20260911/tapeout-xlayer-integrity-lens\n(repository)"];
   "nand" -> "transistor" [label="is_a"];
   "latch" -> "transistor" [label="is_a"];
   "circuit" -> "transistor" [label="uses"];
@@ -158,7 +157,6 @@ digraph TapeOutEncyclopedia {
   "repo-tizerluo-deweb-mcp-playground" -> "tapeout" [label="related_to"];
   "repo-staveliu-desql-wallet" -> "tapeout" [label="related_to"];
   "repo-jogjohgoeg-tapeid" -> "tapeout" [label="related_to"];
-  "repo-yanwenzhe519-ctrl-tapeout-circuit-commons" -> "tapeout" [label="related_to"];
   "repo-tizerluo-neon-reliquary-xlayer" -> "tapeout" [label="related_to"];
   "repo-davieslennox0-nandout" -> "tapeout" [label="related_to"];
   "repo-tomqaq1-tapeout-order-monitor" -> "tapeout" [label="related_to"];
@@ -176,7 +174,7 @@ digraph TapeOutEncyclopedia {
   "repo-memeshee-drawagent" -> "tapeout" [label="related_to"];
   "repo-kvzuobai-stego" -> "tapeout" [label="related_to"];
   "repo-lichao01111-dot-rulechip" -> "tapeout" [label="related_to"];
-  "repo-seekdaseek-fabrica" -> "tapeout" [label="related_to"];
   "repo-seraph125-patchnand" -> "tapeout" [label="related_to"];
   "repo-w522mp8vf8-create-signal-processor" -> "tapeout" [label="related_to"];
+  "repo-livastic-vm5-primary-20260911-tapeout-xlayer-integrity-lens" -> "tapeout" [label="related_to"];
 }
